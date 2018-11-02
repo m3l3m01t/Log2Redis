@@ -1,18 +1,23 @@
 <?xml version="1.0"?>
-<package >
+<package>
   <metadata>
-    <id>$id$</id>
-    <version>$version$</version>
-    <title>$title$</title>
-    <authors>$author$</authors>
-    <owners>$author$</owners>
+    <id>log4net.Log2Redis</id>
+    <version>1.0.1</version>
+    <title>log4net.Log2Redis</title>
+    <authors>m3l3m01t</authors>
+    <owners>m3l3m01t</owners>
     <licenseUrl>https://github.com/m3l3m01t/Log2Redis/blob/master/Log2Redis/LICENSE.txt</licenseUrl>
     <projectUrl>https://github.com/m3l3m01t/Log2Redis/</projectUrl>
     <iconUrl>https://www.nuget.org/Content/gallery/img/default-package-icon-256x256.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
+    <description>log4net Appender for redis</description>
     <releaseNotes>log4net Appender, publish log to redis</releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>redis log4net StackExchange</tags>
+    <dependencies>
+      <dependency id="log4net" version="2.0.0" />
+      <dependency id="StackExchange.Redis" version="[1.2.0,2.0.0)" />
+      <dependency id="System.Reactive" version="[3.0,4.0)" />
+    </dependencies>
   </metadata>
 </package>
