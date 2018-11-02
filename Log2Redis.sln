@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Redis", "Log4Redis\Log4Redis.csproj", "{421EAB8C-97F6-4E2C-80C5-E3DE0FA38269}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log2Redis", "Log2Redis\Log2Redis.csproj", "{421EAB8C-97F6-4E2C-80C5-E3DE0FA38269}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4RedisTests", "Log4RedisTests\Log4RedisTests.csproj", "{E903E181-E3C0-4091-83AE-499EC60AABF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log2RedisTests", "Log2RedisTests\Log2RedisTests.csproj", "{E903E181-E3C0-4091-83AE-499EC60AABF9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{DA9B0307-3C55-4686-8495-CE2AE940B1F7}"
 EndProject
