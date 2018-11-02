@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Log4Redis;
+using Log2Redis;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +11,7 @@ using log4net.Layout;
 using log4net.Config;
 using System.Threading;
 
-namespace Log4Redis.Tests
+namespace Log2Redis.Tests
 {
     [TestClass()]
     public class RedisLoggerTests
@@ -21,8 +21,8 @@ namespace Log4Redis.Tests
         [AssemblyInitialize]
         public static void Initialize(TestContext tc)
         {
-            var appender = new RedisPubAppender() {Topic="KGD",
-                Host ="csj-oq-kgd01.sdcorp.global.sandisk.com"};
+            var appender = new RedisPubAppender() {Topic="TEST",
+                Host ="localhost"};
             appender.Layout = new PatternLayout("%d %-5level %logger - %m%n"); // set pattern
             BasicConfigurator.Configure(appender);
         }

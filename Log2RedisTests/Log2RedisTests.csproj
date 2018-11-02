@@ -63,12 +63,15 @@
     <Compile Include="RedisLoggerTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="log4net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Log4Redis\Log4Redis.csproj">
+    <ProjectReference Include="..\Log2Redis\Log2Redis.csproj">
       <Project>{421EAB8C-97F6-4E2C-80C5-E3DE0FA38269}</Project>
-      <Name>Log4Redis</Name>
+      <Name>Log2Redis</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

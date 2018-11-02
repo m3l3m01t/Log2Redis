@@ -57,9 +57,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Log4Redis\Log4Redis.csproj">
+    <ProjectReference Include="..\Log2Redis\Log2Redis.csproj">
       <Project>{421eab8c-97f6-4e2c-80c5-e3de0fa38269}</Project>
-      <Name>Log4Redis</Name>
+      <Name>Log2Redis</Name>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </ProjectReference>
   </ItemGroup>

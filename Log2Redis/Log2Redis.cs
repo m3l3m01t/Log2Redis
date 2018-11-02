@@ -1,13 +1,8 @@
 ﻿using log4net.Appender;
 using log4net.Core;
-using log4net.Layout;
-using log4net.Util;
-using ServiceStack.Redis;
-using System;
-using System.Diagnostics;
 using System.IO;
 
-namespace Log4Redis
+namespace Log2Redis
 {
     /// <summary>
     /// Displays a MessageBox for all log messages.
